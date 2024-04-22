@@ -10,14 +10,14 @@ namespace csharp_biblioteca
     {
         public string Cognome { get; set; }
         public string Nome { get; set; }
-
         public string Email { get; set; }
-
         public string Password { get; set; }
-
         public int Telefono { get; set; }
+
+
 
 
 
     }
 }
+//reggistrazione utente 

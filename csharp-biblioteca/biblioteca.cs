@@ -14,9 +14,3 @@ namespace csharp_biblioteca
     }
 }
 
-//Gli utenti si possono registrare al sistema, fornendo:
-//-cognome
-//- nome
-//- email
-//- password
-//- recapito telefonico
