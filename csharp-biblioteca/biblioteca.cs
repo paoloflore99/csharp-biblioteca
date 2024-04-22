@@ -9,7 +9,8 @@ namespace csharp_biblioteca
     internal class biblioteca
     {
 
-
+        //aggiungo la lista dei libri , utenti e prestiti 
+        //e metto la ricerca 
 
     }
 }

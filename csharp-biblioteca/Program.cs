@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+
+            
+            
             Utente NuovoUtente = new Utente();
             Console.WriteLine("inserisci cognome");
             string cognome =Console.ReadLine();
@@ -18,6 +21,15 @@
 
             NuovoUtente.RegistrazioneUtente(cognome , nome , email ,password, telefono);
 
-        }
+            
+           // Documento documento = new Documento("identificativo1234" , "one pice" , 1998 , "" , "flore" , "paolo");
+
+
+            Dictionary<string, string> autore = new Dictionary<string, string>();
+            autore["nome"] = "mario";
+            autore["cognome"] = "rossi";
+
+            Console.WriteLine($"nome aure {autore["nome"]} {autore["cognome"]} ");
+        } 
     }
 }
