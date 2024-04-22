@@ -15,8 +15,19 @@ namespace csharp_biblioteca
         public int Telefono { get; set; }
 
 
+        public Utente()
+        { 
+        
+        } 
 
-
+        public void RegistrazioneUtente(string Cognome , string Nome , string Email , string Password , int Telefono )
+        {
+            this.Cognome = Cognome;
+            this.Nome = Nome;
+            this.Email = Email;
+            this.Password = Password;
+            this.Telefono = Telefono;
+        }
 
     }
 }

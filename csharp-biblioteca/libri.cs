@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace csharp_biblioteca
 {
-    internal class libri
+    internal class libri : Documento
     {
+        public int Pagine {  get; set; }
+        public libri() { }
     }
 }

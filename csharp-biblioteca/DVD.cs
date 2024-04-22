@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace csharp_biblioteca
 {
-    internal class DVD
+    internal class DVD : Documento
     {
+
+        public double Durata { get; set; }
     }
 }
